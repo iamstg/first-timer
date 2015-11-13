@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SWAPNIL'S WORLD</title>
+<link rel="stylesheet" media="all" href="menu.css">
+<link rel="stylesheet" media="all" href="contacts.css">
+<link rel="stylesheet" media="all" href="clockstyle.css">
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<script type="text/javascript" src="clock.js"></script>
+
+<div id="top_nav">
+	<ul>
+		<li><a href="swapnil.html">Home</a></li>
+		<li><a href="aboutme.html">About Me</a></li>
+		<li><a href="#">My hobbies</a>
+		<ul>
+			<li><a href="reading.html">Reading</a></li>
+			<li><a href="sports.html">Sports</a></li>
+			<li><a href="music.html">Music</a></li>
+		</ul>
+		</li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</div>
+
+<div class="analog-clock">
+	<section><h4>
+			Analog clock</h4>
+	</section>
+
+	<svg width="140" height="140">
+		<circle id="clock-face" cx="70" cy="70" r="65"/>
+		<line id="h-hand" x1="70" y1="70" x2="70" y2="38"/>
+		<line id="m-hand" x1="70" y1="70" x2="70" y2="20"/>
+		<line id="s-hand" x1="70" y1="70" x2="70" y2="12"/>
+		<line id="s-tail" x1="70" y1="70" x2="70" y2="56"/>
+		<text x="62" y="18">12</text>
+		<text x="126" y="76">3</text>
+		<text x="66" y="130">6</text>
+		<text x="7" y="76">9</text>
+
+	</svg>
+
+	<div class="time-text">
+		<span id="hr">00</span>
+		<span>:</span>
+		<span id="min">00</span>
+		<span>:</span>
+		<span id="sec">00</span>
+		<span>:</span>
+		<span id="suffix">--</span>
+	</div>
+
+</div>
+
+<div id="contact">
+	&nbsp;
+	<h2 id="h2">CONTACT DETAILS</h2>
+	<ol id ="inside_content">
+		<li>Email-id's:&nbsp;
+		<ul>
+			<li>swapnil.daga@research.iiit.ac.in</li>
+			<li>iamstg.daga@gmail.com</li>
+		</ul>
+		</li>
+		<li> or <a href="https://www.facebook.com/?_rdr=p"> contact through facebook</a> : Swapnill Daga</li>
+	</ol>
+</div>
+
+<div id="share">
+	<img src="images/share.jpg" alt="share">
+</div>
+
+<div class="social">
+<div id="fb">
+	<a href="https://www.facebook.com/?_rdr=p" target="_blank"><img src="images/facebook.jpg" alt="fb-logo" height="150" width="150"></a>
+</div>
+
+<div id="twitter">
+	<a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.jpg" alt="twitter-logo" height="150" width="150"></a>
+</div>
+
+<div id="gplus">
+	<a href="http://www.google.com/intl/en/+/learnmore/" target="_blank"><img src="images/g+.png" alt="g+" height="150" width="150"></a>
+</div>
+
+<div id="in">
+	<a href="https://in.linkedin.com/" target="_blank"><img src="images/in.png" alt="linked-in" height="150" width="150"></a>
+</div>
+</div>
+
+</body>
+</html>

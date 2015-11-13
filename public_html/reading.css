@@ -1,0 +1,52 @@
+@media screen  {
+
+	body{
+		height:100%;
+		width:100%;
+		background: url("readingbg.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+
+	#Heading1{
+		font-size: 50px;
+		color: brown;
+		font-family: ‘Lucida Console’,Monaco,monospace;
+		font-weight:bold;
+		font-style:oblique;
+	}
+
+	#left
+	{
+		text-align: left; 
+		display:block;
+		position:relative;
+		background:rgb(250,150,0);
+		font:bold 16px Sans-serif;
+		border-right:1px solid rgb(230,100,0);
+		padding:10px 25px;
+	}
+
+	#right
+	{
+		text-align: right;
+		text-decoration: none;
+		display:block;
+		position:relative;
+		background:rgb(250,150,0);
+		font:bold 16px Sans-serif;
+		border-right:1px solid rgb(230,100,0);
+		padding:10px 25px;
+	}
+
+	#video{
+		position: relative;
+		bottom: 400px;
+		text-align:center;
+		margin-left:auto;
+	}
+
+

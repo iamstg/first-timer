@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SWAPNIL'S WORLD</title>
+<link rel="stylesheet" media="all" href="menu.css">
+<link rel="stylesheet" media="all" href="aboutme.css">
+<link rel="stylesheet" media="all" href="clockstyle.css">
+</head>
+
+<body>
+
+<script type="text/javascript" src="clock.js"></script>
+
+<div id="top_nav">
+	<ul>
+		<li><a href="swapnil.html">Home</a></li>
+		<li><a href="aboutme.html">About Me</a></li>
+		<li><a href="#">My hobbies</a>
+		<ul>
+			<li><a href="reading.html">Reading</a></li>
+			<li><a href="sports.html">Sports</a></li>
+			<li><a href="music.html">Music</a></li>
+		</ul>
+		</li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="feedback.html">Feedback</a></li>
+	</ul>
+</div>
+
+
+&nbsp;
+<div class="analog-clock">
+	<section><h4>
+			Analog clock</h4>
+	</section>
+
+	<svg width="140" height="140">
+		<circle id="clock-face" cx="70" cy="70" r="65"/>
+		<line id="h-hand" x1="70" y1="70" x2="70" y2="38"/>
+		<line id="m-hand" x1="70" y1="70" x2="70" y2="20"/>
+		<line id="s-hand" x1="70" y1="70" x2="70" y2="12"/>
+		<line id="s-tail" x1="70" y1="70" x2="70" y2="56"/>
+		<text x="62" y="18">12</text>
+		<text x="126" y="76">3</text>
+		<text x="66" y="130">6</text>
+		<text x="7" y="76">9</text>
+
+	</svg>
+
+	<div class="time-text">
+		<span id="hr">00</span>
+		<span>:</span>
+		<span id="min">00</span>
+		<span>:</span>
+		<span id="sec">00</span>
+		<span>:</span>
+		<span id="suffix">--</span>
+	</div>
+
+</div>
+
+&nbsp;
+<h1 id="h1">ABOUT ME</h1>
+
+<div id="table">
+	&nbsp;
+	<table id="Table1">
+		<tr>
+			<td>NAME </td>
+			<td>SWAPNIL DAGA</td>
+		</tr>
+
+		<tr>
+			<td>Father's Name </td>
+			<td>Naresh Daga</td>
+		</tr>
+
+		<tr>
+			<td>Mother's Name </td>
+			<td>Sandhya Daga</td>
+		</tr>
+
+		<tr>
+			<td>Siblings </td>
+			<td>1</td>
+
+			<tr>
+				<td>Schooling </td>
+				<td>Till 10th: Atul Vidyalaya,Atul
+					&nbsp;
+					11th and 12th: Vallabh Ashram,Killa Pardi</td>
+			</tr>
+
+			<tr>
+				<td>College/University </td>
+				<td>IIIT, Hyderabad</td>
+			</tr>
+
+			<tr>
+				<td>Branch</td>
+				<td>B.Tech in ECE and MS by Research in ECE</td>
+			</tr>
+
+		</table>
+	</div>
+
+	<div id="surrimage">
+
+		<img src="images/swapnil.jpg" id="myimage" alt="swapnil's pic"/>
+		<span>
+			This pic was taken at par river.
+			Courtesy:Vedant Desai.
+			&nbsp;
+			I live in a place called Atul which lies in Valsad District. It is a beautiful, clean and green place.
+			It has a very serene and peaceful atmosphere. The major places to visit there are Par river(in the background of the pic),
+			Parnera Hill, Tithal Beach and many more such cool places.
+			&nbsp;
+			So, whenever you make your next visit to Valsad, please make sure to visit Valsad which is also famous for it's alphonso mangoes and do also visit Atul.
+		</span>
+
+	</div>
+
+	</body>
+	</html>
+

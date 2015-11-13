@@ -1,0 +1,76 @@
+body
+{
+	height:100%;
+	width:100%;
+	background: url("contactsbackground.jpg");
+	margin-left:10px;
+}
+
+#h2{
+	width:300px;
+	height: 100px;
+	font-size:35px;
+	font-weight: bold;
+	font-style :oblique;
+        color:blue;
+	border: 2px;
+	border-width:medium;
+}
+
+#contact{
+	width:400px;
+	height:400px;
+	font-weight: bold;
+	font-size: 40px;
+	position:relative;
+	left:20px;
+	color:black;
+}
+
+#inside_content{
+	font-size:40px;
+	color:black;
+}
+
+#share{
+	position:relative;
+	bottom:50px;
+	text-align:center;
+	margin-left:auto;
+}
+
+.social{
+	position:relative;
+	bottom:50px;
+	text-align:center;
+	margin-left:auto;
+}
+
+#fb{
+	display:inline;
+	text-align:center;
+	margin-left:auto;
+}
+
+#twitter{
+	display:inline;
+	text-align:center;
+	margin-left:auto;
+}
+
+#in{
+	display:inline;
+	text-align:center;
+	margin-left:auto;
+}
+
+#gplus{
+	display:inline;
+	text-align:center;
+	margin-left:auto;
+}
+
+
+
+
+

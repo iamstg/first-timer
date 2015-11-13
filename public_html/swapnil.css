@@ -1,0 +1,52 @@
+body
+{
+	height:100%;
+	width:100%;
+	background: url("homepagebg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+@keyframes example {
+	from {background-color: #6CC417;}
+	to {background-color: yellow;}
+}
+
+.headsec {
+	-webkit-transition: margin 1s;
+	-moz-transition: margin 1s;
+	-o-transition: margin 1s;
+	transition: margin 1s;
+}
+.headsec:hover {
+	margin-left: 100px;
+}
+
+#h1 {
+	width: 200px;
+	height:100px;
+	background-color: #6CC417;
+	animation-name: example;
+	animation-duration: 6s;
+	border: 2px;
+	border-color: blue;
+	border-style:solid;
+	border-width: medium;
+	color: black;
+	font-size:40px;
+	font-style:oblique;
+	font-weight:bold;
+	text-align:center;
+}
+
+#random{
+        margin-right:40px;
+        font-weight:bold;
+        font-size:40px;
+        position:relative;
+        top:30px;
+        margin-left:30px;
+}

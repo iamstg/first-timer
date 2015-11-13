@@ -1,0 +1,31 @@
+body
+{
+	background: url("images/homepagebg.jpg");
+}
+
+
+@keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}
+}
+
+.headsec{
+	align:center;
+}
+
+#h1 {
+	width: 200px;
+	height:100px;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 6s;
+	border: 2px;
+	border-color: blue;
+	border-style:solid;
+	border-width: medium;
+	color: black;
+	font-size:40px;
+	font-style:oblique;
+	font-weight:bold;
+
+} 

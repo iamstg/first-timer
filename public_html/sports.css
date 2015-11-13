@@ -1,0 +1,42 @@
+@media screen {
+#h1
+{
+	font-size:40px;
+	color:blue;
+	font-weight:bold;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-style: oblique;
+	position:relative;
+	top:10px;
+}
+
+body
+{
+	height: 100%;
+	width: 100%;
+	background: url("sports.png");
+}
+
+#boldtext{
+	position:relative;
+	left:5px;
+	font-weight:bold;
+	position: relative;
+	top:20px;
+}
+
+#players
+{
+	display: inline-block;
+	position:relative;
+	top:20px;
+}
+#anim
+{
+float:right;
+margin-right:40px;
+position:relative;
+bottom:800px;
+right:100px;
+}
+}
